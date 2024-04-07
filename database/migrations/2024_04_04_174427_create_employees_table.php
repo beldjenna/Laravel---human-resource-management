@@ -24,7 +24,7 @@ return new class extends Migration
             $table->date('date_fincont');
             $table->string('service');
             $table->string('adresse');
-            $table->integer('tel');
+            $table->string('tel',20);
             $table->string('email');
             $table->date('date_embauche');
             $table->integer('nb_jourconge');
